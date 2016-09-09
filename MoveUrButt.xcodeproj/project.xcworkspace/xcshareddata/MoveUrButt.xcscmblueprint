@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "10B73D0B7CE5B1CD363428FDF4A01A2A9E2F0357" : 0,
+    "2045D86BC5D391C299DCC498309E722E037BFF4E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1F31E336-A944-47C9-BD5C-BB5492F77A30",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "10B73D0B7CE5B1CD363428FDF4A01A2A9E2F0357" : "MoveUrButt\/OAuth2\/SwiftKeychain\/",
+    "2045D86BC5D391C299DCC498309E722E037BFF4E" : "MoveUrButt\/OAuth2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MoveUrButt",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MoveUrButt.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yankodimitrov\/SwiftKeychain",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "10B73D0B7CE5B1CD363428FDF4A01A2A9E2F0357"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/p2\/OAuth2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2045D86BC5D391C299DCC498309E722E037BFF4E"
+    }
+  ]
+}
