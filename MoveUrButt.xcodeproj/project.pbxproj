@@ -16,8 +16,7 @@
 		3CC09E3D1D8127D50036B964 /* MoveUrButtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC09E3C1D8127D50036B964 /* MoveUrButtTests.swift */; };
 		3CC09E481D8127D50036B964 /* MoveUrButtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC09E471D8127D50036B964 /* MoveUrButtUITests.swift */; };
 		3CC09E561D8128750036B964 /* FitbitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC09E551D8128750036B964 /* FitbitAPI.swift */; };
-		3CC09EA91D81BFA10036B964 /* OAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC09E891D81ABEC0036B964 /* OAuth2.framework */; };
-		3CC09EAA1D81BFA10036B964 /* OAuth2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC09E891D81ABEC0036B964 /* OAuth2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		446C62E36F5A7010EC5E752A /* Pods_MoveUrButt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46C97CEE14C6E924AEF425A /* Pods_MoveUrButt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,58 +34,15 @@
 			remoteGlobalIDString = 3CC09E201D8127D40036B964;
 			remoteInfo = MoveUrButt;
 		};
-		3CC09E861D81ABEC0036B964 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3CC09E7F1D81ABEC0036B964 /* OAuth2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EEE209471942772800736F1A;
-			remoteInfo = OAuth2OSX;
-		};
-		3CC09E881D81ABEC0036B964 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3CC09E7F1D81ABEC0036B964 /* OAuth2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EEDB8624193FAAE500C4EEA1;
-			remoteInfo = OAuth2iOS;
-		};
-		3CC09E8A1D81ABEC0036B964 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3CC09E7F1D81ABEC0036B964 /* OAuth2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 659854461C5B3BEA00237D39;
-			remoteInfo = OAuth2tvOS;
-		};
-		3CC09E8C1D81ABEC0036B964 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3CC09E7F1D81ABEC0036B964 /* OAuth2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EEE209A219427DFE00736F1A;
-			remoteInfo = OAuth2Tests;
-		};
-		3CC09EA31D81B3920036B964 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3CC09E7F1D81ABEC0036B964 /* OAuth2.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EEDB8623193FAAE500C4EEA1;
-			remoteInfo = OAuth2iOS;
-		};
-		3CC09EAB1D81BFA10036B964 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3CC09E7F1D81ABEC0036B964 /* OAuth2.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EEDB8623193FAAE500C4EEA1;
-			remoteInfo = OAuth2iOS;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3CC09EAD1D81BFA10036B964 /* Embed Frameworks */ = {
+		3CC09EDA1D840C310036B964 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3CC09EAA1D81BFA10036B964 /* OAuth2.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3C2638B11D84501E00D354BD /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		3CC09E211D8127D40036B964 /* MoveUrButt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveUrButt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC09E241D8127D40036B964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CC09E261D8127D40036B964 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,7 +66,9 @@
 		3CC09E471D8127D50036B964 /* MoveUrButtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveUrButtUITests.swift; sourceTree = "<group>"; };
 		3CC09E491D8127D50036B964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CC09E551D8128750036B964 /* FitbitAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitbitAPI.swift; sourceTree = "<group>"; };
-		3CC09E7F1D81ABEC0036B964 /* OAuth2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuth2.xcodeproj; path = OAuth2/OAuth2.xcodeproj; sourceTree = "<group>"; };
+		8C30BF0CD5A8CC090ADC0F74 /* Pods-MoveUrButt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveUrButt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoveUrButt/Pods-MoveUrButt.debug.xcconfig"; sourceTree = "<group>"; };
+		B00F1A055FEE2F2069A626AC /* Pods-MoveUrButt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveUrButt.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoveUrButt/Pods-MoveUrButt.release.xcconfig"; sourceTree = "<group>"; };
+		C46C97CEE14C6E924AEF425A /* Pods_MoveUrButt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveUrButt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CC09EA91D81BFA10036B964 /* OAuth2.framework in Frameworks */,
+				446C62E36F5A7010EC5E752A /* Pods_MoveUrButt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1860B0A8439E14940F052331 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C30BF0CD5A8CC090ADC0F74 /* Pods-MoveUrButt.debug.xcconfig */,
+				B00F1A055FEE2F2069A626AC /* Pods-MoveUrButt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3CC09E181D8127D40036B964 = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +113,8 @@
 				3CC09E3B1D8127D50036B964 /* MoveUrButtTests */,
 				3CC09E461D8127D50036B964 /* MoveUrButtUITests */,
 				3CC09E221D8127D40036B964 /* Products */,
-				3CC09E7F1D81ABEC0036B964 /* OAuth2.xcodeproj */,
+				1860B0A8439E14940F052331 /* Pods */,
+				B6669B6080F85474A9042356 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,12 +133,13 @@
 			children = (
 				3CC09E241D8127D40036B964 /* AppDelegate.swift */,
 				3CC09E261D8127D40036B964 /* ViewController.swift */,
+				3CC09E551D8128750036B964 /* FitbitAPI.swift */,
+				3C2638B11D84501E00D354BD /* Header.h */,
 				3CC09E281D8127D50036B964 /* Main.storyboard */,
 				3CC09E2E1D8127D50036B964 /* Assets.xcassets */,
 				3CC09E301D8127D50036B964 /* LaunchScreen.storyboard */,
 				3CC09E331D8127D50036B964 /* Info.plist */,
 				3CC09E2B1D8127D50036B964 /* MoveUrButt.xcdatamodeld */,
-				3CC09E551D8128750036B964 /* FitbitAPI.swift */,
 			);
 			path = MoveUrButt;
 			sourceTree = "<group>";
@@ -192,15 +162,12 @@
 			path = MoveUrButtUITests;
 			sourceTree = "<group>";
 		};
-		3CC09E801D81ABEC0036B964 /* Products */ = {
+		B6669B6080F85474A9042356 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3CC09E871D81ABEC0036B964 /* OAuth2.framework */,
-				3CC09E891D81ABEC0036B964 /* OAuth2.framework */,
-				3CC09E8B1D81ABEC0036B964 /* OAuth2.framework */,
-				3CC09E8D1D81ABEC0036B964 /* OAuth2Tests.xctest */,
+				C46C97CEE14C6E924AEF425A /* Pods_MoveUrButt.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,16 +177,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CC09E4C1D8127D50036B964 /* Build configuration list for PBXNativeTarget "MoveUrButt" */;
 			buildPhases = (
+				81F5D7354A92FFCEDA83A912 /* [CP] Check Pods Manifest.lock */,
 				3CC09E1D1D8127D40036B964 /* Sources */,
 				3CC09E1E1D8127D40036B964 /* Frameworks */,
 				3CC09E1F1D8127D40036B964 /* Resources */,
-				3CC09EAD1D81BFA10036B964 /* Embed Frameworks */,
+				3CC09EDA1D840C310036B964 /* Embed Frameworks */,
+				2658B965F0874DDD671A2EC9 /* [CP] Embed Pods Frameworks */,
+				D24273AD62EAF9829401F49D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3CC09EA41D81B3920036B964 /* PBXTargetDependency */,
-				3CC09EAC1D81BFA10036B964 /* PBXTargetDependency */,
 			);
 			name = MoveUrButt;
 			productName = MoveUrButt;
@@ -297,12 +265,6 @@
 			mainGroup = 3CC09E181D8127D40036B964;
 			productRefGroup = 3CC09E221D8127D40036B964 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 3CC09E801D81ABEC0036B964 /* Products */;
-					ProjectRef = 3CC09E7F1D81ABEC0036B964 /* OAuth2.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				3CC09E201D8127D40036B964 /* MoveUrButt */,
@@ -311,37 +273,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		3CC09E871D81ABEC0036B964 /* OAuth2.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OAuth2.framework;
-			remoteRef = 3CC09E861D81ABEC0036B964 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3CC09E891D81ABEC0036B964 /* OAuth2.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OAuth2.framework;
-			remoteRef = 3CC09E881D81ABEC0036B964 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3CC09E8B1D81ABEC0036B964 /* OAuth2.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OAuth2.framework;
-			remoteRef = 3CC09E8A1D81ABEC0036B964 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3CC09E8D1D81ABEC0036B964 /* OAuth2Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = OAuth2Tests.xctest;
-			remoteRef = 3CC09E8C1D81ABEC0036B964 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3CC09E1F1D8127D40036B964 /* Resources */ = {
@@ -369,6 +300,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2658B965F0874DDD671A2EC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoveUrButt/Pods-MoveUrButt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81F5D7354A92FFCEDA83A912 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D24273AD62EAF9829401F49D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoveUrButt/Pods-MoveUrButt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3CC09E1D1D8127D40036B964 /* Sources */ = {
@@ -410,16 +389,6 @@
 			isa = PBXTargetDependency;
 			target = 3CC09E201D8127D40036B964 /* MoveUrButt */;
 			targetProxy = 3CC09E441D8127D50036B964 /* PBXContainerItemProxy */;
-		};
-		3CC09EA41D81B3920036B964 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OAuth2iOS;
-			targetProxy = 3CC09EA31D81B3920036B964 /* PBXContainerItemProxy */;
-		};
-		3CC09EAC1D81BFA10036B964 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OAuth2iOS;
-			targetProxy = 3CC09EAB1D81BFA10036B964 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -528,11 +497,17 @@
 		};
 		3CC09E4D1D8127D50036B964 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C30BF0CD5A8CC090ADC0F74 /* Pods-MoveUrButt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/OAuthSwift-master/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = MoveUrButt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -544,11 +519,17 @@
 		};
 		3CC09E4E1D8127D50036B964 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B00F1A055FEE2F2069A626AC /* Pods-MoveUrButt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/OAuthSwift-master/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = MoveUrButt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

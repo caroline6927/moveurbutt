@@ -1,0 +1,6 @@
+framework module Pods_MoveUrButt {
+  umbrella header "Pods-MoveUrButt-umbrella.h"
+
+  export *
+  module * { export * }
+}
